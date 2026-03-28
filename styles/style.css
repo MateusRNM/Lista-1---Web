@@ -2,9 +2,17 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    width: 90%;
+    table-layout: fixed;
+}
+
 table, td {
     border: 1px solid black;
     text-align: center;
-    height: 2rem;
-    table-layout: fixed;
 }
